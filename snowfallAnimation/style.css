@@ -1,0 +1,10 @@
+body{
+	background-color: aqua;
+}
+.snow{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+}
