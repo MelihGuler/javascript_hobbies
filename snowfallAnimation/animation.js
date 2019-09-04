@@ -44,7 +44,7 @@ document.getElementById("stopSnow").onclick=function(){
 		//Tekrar kar yağışını başlat.
 		start=setInterval(function(){
 			createSnow();
-		},50);
+		},400);
 		isRain=true;//Kar yağışı durumunu true yap.
 		this.innerHTML="STOP SNOWFALL";//Element içine "STOP SNOWFALL" yaz.
 	}
