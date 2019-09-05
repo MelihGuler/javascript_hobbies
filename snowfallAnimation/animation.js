@@ -1,7 +1,7 @@
 document.onload=start;//sayfa yüklendiğinde start çalışsın.
 var isRain=true;//Kar yağışı devam ediyor mu ? true=evet - false=hayır. 
 
-//400 ms aralıklarla moveSnow fonksiyonunu çağırır. Yani her 400 ms'de bir adet kar tanesi oluşturulur. 
+//400 ms aralıklarla createSnow fonksiyonunu çağırır. Yani her 400 ms'de bir adet kar tanesi oluşturulur. 
 var start=setInterval(function(){
 	 "use strict";
 	createSnow();
